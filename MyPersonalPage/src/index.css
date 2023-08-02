@@ -3,10 +3,3 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Open+Sans&display=swap');
-
-body {
-    font-family: 'DM Sans';
-    height: 100vh;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(324deg, rgba(2, 0, 36, 1) 0%, rgba(3, 9, 57, 1) 0%, rgba(10, 50, 148, 1) 49%, rgba(10, 49, 146, 1) 77%, rgba(12, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
-}
