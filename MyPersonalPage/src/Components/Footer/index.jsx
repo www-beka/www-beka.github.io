@@ -79,8 +79,8 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <div className="avtor flex justify-center items-center">
-            <span>Bekzod Bekmuradov  •  © 2023   • Personal web site</span>
+          <div className="avtor flex justify-center items-center mb-8">
+            <span class="select-none reflect font-be-vietnam-pro md:text-lg text-sm text-zinc-600 dark:text-gray-400">Bekzod Bekmuradov  •  © 2023   • Personal web site</span>
           </div>
         </div>
       </footer>
