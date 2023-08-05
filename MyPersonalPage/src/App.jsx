@@ -1,24 +1,18 @@
-import NavBar from "./Components/NavBar"
-import MainSection from './Components/MainSections/index' 
-import LatesPost from "./Components/LatesPost"
-import Footer from "./Components/Footer"
+import HomePage from "./Components/Pages/Home"
+import Layout from './Components/Layout'
 
 function App() {
   return (
     <>
       <div className="app">
-        <section>
-          <NavBar />
-        </section>
-        <section>
-          <MainSection />
-        </section>
-        <section>
-          <LatesPost />
-        </section>
-        <section>
-          <Footer />
-        </section>
+        <HomePage />
+          {/* <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<HomePage />} />
+            </Route>
+          </Routes>
+        </BrowserRouter> */}
       </div>
     </>
   )
