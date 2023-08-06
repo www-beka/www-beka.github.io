@@ -21,15 +21,19 @@ const NavBar = () => {
             </div>
           </div>
           <div className="center_nav">
-              <p>About</p>
-              <p>Portfolio</p>
-              <p>Contact</p>
-              <p>Blog</p>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
           </div>
           <div className="right_nav">
-              <span>Instagram</span>
-              <span>Telegram</span>            
-              <span>GitHub</span>
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Telegram</a></li>
+                <li><a href="#">GitHub</a></li>
+              </ul>
           </div>
         </div>
       </nav>
