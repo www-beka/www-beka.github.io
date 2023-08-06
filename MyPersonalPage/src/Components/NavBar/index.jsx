@@ -1,28 +1,35 @@
 import './index.scss'
-import Theme from '../Theme';
-import { useState } from 'react'
+import Logo from '../../assets/logo-3.png'
+import { useState } from 'react';
 
 const NavBar = () => {
   const [theme, setTheme] = useState(false)
 
-  function changeTheme() {
+  function audi() {
+    const audio = new Audio(Logo)
+    audio.play()
     return setTheme(!theme)
   }
 
   return (
     <>
-      <nav className={theme ? 'dark-theme' : 'light-theme'  }>
-        <div className="container mx-auto px-40">
+      <nav>
+        <div className="container mx-auto px-56 py-3">
           <div className="left_nav">
-            <div className='ml-3' onClick={changeTheme}>
-              <Theme />
+            <div className='ml-3'>
+                <img src={Logo} alt="" width={50}/>
             </div>
           </div>
-          <div className="right_nav">
-              <p>Home</p>
-              <p>Blog</p>
+          <div className="center_nav">
               <p>About</p>
-              <p>Projects</p>
+              <p>Portfolio</p>
+              <p>Contact</p>
+              <p>Blog</p>
+          </div>
+          <div className="right_nav">
+              <span>Instagram</span>
+              <span>Telegram</span>            
+              <span>GitHub</span>
           </div>
         </div>
       </nav>
