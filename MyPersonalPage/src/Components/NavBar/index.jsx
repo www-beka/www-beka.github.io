@@ -1,6 +1,10 @@
 import './index.scss'
 import Logo from '../../assets/images/logo-3.png'
 import { useState } from 'react';
+import Instagram_logo from '../../assets/images/instagram.svg'
+import telegram_logo from '../../assets/images/telegram.svg'
+import gitHub_logo from '../../assets/images/github.svg'
+
 
 const NavBar = () => {
   const [theme, setTheme] = useState(false)
@@ -29,10 +33,10 @@ const NavBar = () => {
               </ul>
           </div>
           <div className="right_nav">
-              <ul>
-                <li><a href="#"><img src="https://img.icons8.com/ios/50/instagram-new--v1.png" width={30} height={30} alt="" /></a></li>
-                <li><a href="#">Telegram</a></li>
-                <li><a href="#">GitHub</a></li>
+              <ul> 
+                <li><a href="#"><img src={Instagram_logo} width={30} alt="" /></a></li>
+                <li><a href="#"><img src={telegram_logo} width={30} alt="" /></a></li>
+                <li><a href="#"><img src={gitHub_logo} width={30} alt="" /></a></li>
               </ul>
           </div>
         </div>
