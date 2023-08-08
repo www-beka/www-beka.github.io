@@ -1,5 +1,6 @@
 import AboutMe from "./AbouMe"
 import PieChar from "./PieChar"
+import RandomFacts from "./RandomFacts"
 
 const AboutPage = () => {
   return (
@@ -9,6 +10,9 @@ const AboutPage = () => {
         </section>
         <section>
             <PieChar/>
+        </section>
+        <section>
+            <RandomFacts />
         </section>
     </>
   )
