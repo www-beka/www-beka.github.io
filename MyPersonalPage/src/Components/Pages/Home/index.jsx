@@ -1,7 +1,7 @@
 import NavBar from "../../NavBar"
 import Footer from "../../Footer"
 import MainSections from "./MainSections"
-import LatesPost from "./LatesPost"
+import LatesWorks from "./LatesWorks"
 
 const HomePage = () => {
     return(
@@ -14,7 +14,7 @@ const HomePage = () => {
                     <MainSections/>
                 </section>
                 <section>
-                    <LatesPost />
+                    <LatesWorks />
                 </section>
                 <section>
                     <Footer />

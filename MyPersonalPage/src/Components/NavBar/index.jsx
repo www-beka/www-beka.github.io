@@ -30,7 +30,7 @@ const NavBar = () => {
           </div>
           <div className="right_nav">
               <ul>
-                <li><a href="#">Instagram</a></li>
+                <li><a href="#"><img src="https://img.icons8.com/ios/50/instagram-new--v1.png" width={30} height={30} alt="" /></a></li>
                 <li><a href="#">Telegram</a></li>
                 <li><a href="#">GitHub</a></li>
               </ul>
