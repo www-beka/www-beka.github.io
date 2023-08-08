@@ -3,7 +3,7 @@ import Top from '../../assets/images/top.png'
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className="mt-14">
           <div className="footer_conten container mx-auto px-52 flex justify-between items-center">
             <div className="top">
               <img src={Top} alt="" />

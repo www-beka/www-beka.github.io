@@ -4,7 +4,7 @@ import { useState } from 'react';
 import Instagram_logo from '../../assets/images/instagram.svg'
 import telegram_logo from '../../assets/images/telegram.svg'
 import gitHub_logo from '../../assets/images/github.svg'
-
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [theme, setTheme] = useState(false)
@@ -26,7 +26,7 @@ const NavBar = () => {
           </div>
           <div className="center_nav">
               <ul>
-                <li><a href="#">About</a></li>
+                <li><Link to='/About'>About</Link> </li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Blog</a></li>

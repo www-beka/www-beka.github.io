@@ -8,16 +8,10 @@ const HomePage = () => {
         <>
             <div className="HomePage">
                 <section>
-                    <NavBar />
-                </section>
-                <section>
                     <MainSections/>
                 </section>
                 <section>
                     <LatesWorks />
-                </section>
-                <section>
-                    <Footer />
                 </section>
             </div>
         </>
