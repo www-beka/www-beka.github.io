@@ -20,12 +20,12 @@ const AboutMe = () => {
             </div>
           </div>
           <div className="aboutMe_bottom grid grid-cols-6 gap-5">
-              <div className="items p-2 bg-gray-50"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/toddler.jpg" alt="" /></div>
-              <div className="items p-2 bg-gray-50"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/sydney.jpg" alt="" /></div>
-              <div className="items p-2 bg-gray-50"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/home.jpg" alt="" /></div>
-              <div className="items p-2 bg-gray-50"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/workspace.jpg" alt="" /></div>
-              <div className="items p-2 bg-gray-50"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/l-sit-pullup.jpg" alt="" /></div>
-              <div className="items p-2 bg-gray-50"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/interior-design.jpg" alt="" /></div>
+              <div className="items p-2 bg-gray-200"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/toddler.jpg" alt="" /></div>
+              <div className="items p-2 bg-gray-200"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/sydney.jpg" alt="" /></div>
+              <div className="items p-2 bg-gray-200"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/home.jpg" alt="" /></div>
+              <div className="items p-2 bg-gray-200"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/workspace.jpg" alt="" /></div>
+              <div className="items p-2 bg-gray-200"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/l-sit-pullup.jpg" alt="" /></div>
+              <div className="items p-2 bg-gray-200"><img src="https://www.adhamdannaway.com/wp-content/themes/dannaway/images/interior-design.jpg" alt="" /></div>
           </div>  
         </div>
       </div>
