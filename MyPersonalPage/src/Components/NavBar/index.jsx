@@ -21,7 +21,9 @@ const NavBar = () => {
         <div className="container mx-auto px-56 py-3">
           <div className="left_nav">
             <div className='ml-3'>
+              <Link to='/'>
                 <img src={Logo} alt="" width={50}/>
+              </Link>
             </div>
           </div>
           <div className="center_nav">
