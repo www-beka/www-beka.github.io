@@ -29,7 +29,7 @@ const NavBar = () => {
           <div className="center_nav">
               <ul>
                 <li><Link to='/About'>About</Link> </li>
-                <li><a href="#">Portfolio</a></li>
+                <li><Link to='/Portfolio'>Portfolio</Link></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">Blog</a></li>
               </ul>
