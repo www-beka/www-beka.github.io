@@ -3,7 +3,7 @@ import Projects from "./Porojects";
 
 const Portfolio = () => {
   return (
-    <div className="Portfolio container mx-auto px-52">
+    <div className="Portfolio ">
         <section>
             <Portfolio_info />
         </section>
