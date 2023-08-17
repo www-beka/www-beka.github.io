@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav>
+      <nav id='nav'>
         <div className="container mx-auto px-56 py-3">
           <div className="left_nav">
             <div className='ml-3'>
@@ -36,9 +36,9 @@ const NavBar = () => {
           </div>
           <div className="right_nav">
               <ul> 
-                <li><a href="#"><img src={Instagram_logo} width={30} alt="" /></a></li>
-                <li><a href="#"><img src={telegram_logo} width={30} alt="" /></a></li>
-                <li><a href="#"><img src={gitHub_logo} width={30} alt="" /></a></li>
+                <li><a target='_blank' href="https://www.instagram.com/_www.beka_/"><img src={Instagram_logo} width={30} alt="" /></a></li>
+                <li><a target='_blank' href="https://t.me/www_beka"><img src={telegram_logo} width={30} alt="" /></a></li>
+                <li><a target='_blank' href="https://github.com/www-beka"><img src={gitHub_logo} width={30} alt="" /></a></li>
               </ul>
           </div>
         </div>
