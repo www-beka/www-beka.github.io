@@ -3,8 +3,8 @@ import './index.scss'
 const Portfolio_info = () => {
   return (
     <>
-        <div className="Portfolio_info container mx-auto px-52">
-            <div className="Portfolio_info_content grid grid-cols-2">
+        <div className="Portfolio_info container mx-auto px-8 sm:px-52">
+            <div className="Portfolio_info_content grid grid-cols-1 sm:grid-cols-2">
                 <div className="Portfolio_content_left">
                     <h1>portfolio.</h1>
                     <p>Check out some of my latest UI/UX design case studies.</p>

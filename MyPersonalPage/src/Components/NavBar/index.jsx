@@ -5,6 +5,7 @@ import Instagram_logo from '../../assets/images/instagram.svg'
 import telegram_logo from '../../assets/images/telegram.svg'
 import gitHub_logo from '../../assets/images/github.svg'
 import { Link } from 'react-router-dom';
+import '../Mobile/nav.scss'
 
 const NavBar = () => {
   const [theme, setTheme] = useState(false)
@@ -17,7 +18,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav id='nav'>
+      <nav id='nav' className='sticky top-0'>
         <div className="container mx-auto px-56 py-3">
           <div className="left_nav">
             <div className='ml-3'>

@@ -2,9 +2,9 @@ import './index.scss'
 const Projects = () => {
   return (
     <>
-        <div className="Projects container mx-auto px-52">
+        <div className="Projects container mx-auto px-8 sm:px-52">
             <div className='Projects_content'>
-                <ul className='grid grid-cols-3 gap-6'>
+                <ul className='grid grid-cols-1 gap-6 sm:grid-cols-3'>
                     <li>
                         <a href="https://www.adhamdannaway.com/portfolio/ui-design-book">
                             <img src="https://www.adhamdannaway.com/wp-content/uploads/2022/12/feature-ui-design-book.jpg" alt="UI design book" />							            
