@@ -1,6 +1,6 @@
 import "./footer.scss";
 import Top from '../../assets/images/top.png'
-import { useEffect } from 'react';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       <footer>
           <div className="footer_conten container mx-auto px-52 flex justify-between items-center">
             <div className="top">
-              <a href="#nav">
+              <a href="#top-id">
                 <img src={Top} alt="" />
               </a>
             </div>

@@ -18,7 +18,8 @@ const NavBar = () => {
 
   return (
     <>
-      <nav id='nav' className='sticky top-0'>
+      <span id='top-id'></span>
+      <nav className='sticky top-0'>
         <div className="container mx-auto px-56 py-3">
           <div className="left_nav">
             <div className='ml-3'>

@@ -5,7 +5,7 @@ import AboutPage from "./Components/Pages/About";
 import Portfolio from "./Components/Pages/Portfolio";
 import Contact from "./Components/Pages/Contact";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
