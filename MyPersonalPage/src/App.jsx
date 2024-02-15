@@ -1,13 +1,18 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import './app.scss'
+import Cursor from './Components/cursor/Cursor'
+import Navbar from './Components/navbar/Navbar';
 function App() {
   return (
     <>
       <div className="app">
-        <h1>hello word</h1>
+        <Cursor />
+        <section>
+          <Navbar />
+        </section>
+        
       </div>
     </>
   );
 }
 
-export default App;
+export default App; 
