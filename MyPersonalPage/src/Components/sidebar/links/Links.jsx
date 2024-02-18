@@ -13,9 +13,8 @@ const variants = {
     },
   },
 };
-
 const itemVariants = {
-  opne: {
+  open: {
     y: 0,
     opacity: 1,
   },
