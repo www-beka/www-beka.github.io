@@ -21,3 +21,6 @@ section {
     scroll-snap-align: center;
     overflow: hidden;
 }
+::-webkit-scrollbar{
+    display: none;
+}
