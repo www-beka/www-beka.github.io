@@ -6,15 +6,15 @@ import Hero from './Components/hero/Hero';
 
 function App() {
   return (
-    <>
       <div className="app">
         <Cursor />
-        <section>
+        <section id='Homepage'>
           <Navbar />
+          <Hero />
         </section>
         
+        
       </div>
-    </>
   );
 }
 
