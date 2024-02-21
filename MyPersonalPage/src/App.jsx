@@ -1,9 +1,12 @@
+import Test from "./Test";
 import "./app.scss";
 import Cursor from "./Components/cursor/Cursor";
 import Navbar from "./Components/navbar/Navbar";
 import Hero from "./Components/hero/Hero";
 import Services from "./Components/services/Services";
 import Parallax from "./Components/parallax/Parallax";
+import Portfolio from "./Components/portfolio/Portfolio";
+import Contact from "./Components/contact/Contact";
 
 function App() {
   return (
@@ -21,6 +24,10 @@ function App() {
       </section>
       <section id="Portfolio">
         <Parallax type="portfolio" />
+      </section>
+      <Portfolio />
+      <section id="Contact">
+        <Contact />
       </section>
     </div>
   );
