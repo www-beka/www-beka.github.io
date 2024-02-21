@@ -38,6 +38,7 @@
           font-weight: 300;
           cursor: pointer;
         }
+        z-index: 999;
       }
       img {
         width: 50px;
@@ -65,5 +66,6 @@
     color: #ffffff09;
     width: 50%;
     font-weight: bold;
+    z-index: -0;
   }
 }
