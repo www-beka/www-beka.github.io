@@ -16,13 +16,13 @@ const Navbar = () => {
           Bekzod Dev
         </motion.span>
         <div className="social">
-          <a href="">
+          <a href="https://www.instagram.com/_www.beka_?igsh=emdqMDhybHQzcGIx">
             <img src="/instagram.svg" alt="inst" />
           </a>
-          <a href="">
+          <a href="https://t.me/www_beka">
             <img src="/telegram.svg" alt="tg" />
           </a>
-          <a href="">
+          <a href="https://github.com/www-beka">
             <img src="/github.svg" alt="github" />
           </a>
         </div>
